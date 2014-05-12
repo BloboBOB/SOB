@@ -1,0 +1,26 @@
+class Header
+{
+    gameType = Coop;
+    minPlayers = 1; 
+    maxPlayers = 20;
+};
+
+Author = "BOB"; 
+loadScreen = "img\loadscreen_mission.paa";
+OnLoadName = "VORLAGE";
+OnLoadMissionTime = 1;
+
+Respawn 		= 3;
+RespawnDelay 	= 4;
+respawnDialog 	= 1;
+DisabledAI		= 1;
+showGPS			= 1;
+showNotepad		= 1;			
+showCompass		= 1;			
+showWatch		= 1;		
+debriefing		= 1;
+
+//0 fadeRadio 0;
+enableRadio false;
+enableSentences false;
+player disableConversation false;
