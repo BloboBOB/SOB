@@ -17,25 +17,25 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 
 
 /**
-* Abkürzungen
+* AbkÃ¼rzungen
 */
-_abr = player createDiaryRecord ["diary", ["Abkürzungen","
-    <br/>LOC - (Line Of Communication) Strategisch wichtige Straßen.
+_abr = player createDiaryRecord ["diary", ["AbkÃ¼rzungen","
+    <br/>LOC - (Line Of Communication) Strategisch wichtige StraÃŸen.
     <br/>GSI - Gefechtsschaden Instandsetzung.
-    <br/>NTM - (Notice Of Move) Zeitvorgabe (NTM 15) in der man alle Tätigkeiten abgeschlossen und abmarschbereit sein muss.
+    <br/>NTM - (Notice Of Move) Zeitvorgabe (NTM 15) in der man alle TÃ¤tigkeiten abgeschlossen und abmarschbereit sein muss.
     <br/>TIC - (Troops In Contact) Feindkontakt.
     <br/>TOC - (Tactical Operations Center) Taktisches Lagezentrum.
-    <br/>VP check - (Vulnerable Point Check) Überprüfung von Stellen an denen die Patrouille besonders verwundbar ist, da sie sich hervorragend für einen Hinterhalt/IED eignen.
+    <br/>VP check - (Vulnerable Point Check) ÃœberprÃ¼fung von Stellen an denen die Patrouille besonders verwundbar ist, da sie sich hervorragend fÃ¼r einen Hinterhalt/IED eignen.
 "]];
 
 
 
 /**
-* Ausführung
+* AusfÃ¼hrung
 */
-_exe = player createDiaryRecord ["diary", ["Ausführung","
+_exe = player createDiaryRecord ["diary", ["AusfÃ¼hrung","
     <br/>
-    AUSFÜHRUNG
+    AUSFÃœHRUNG
     <br/>
     *** Kurze Zusammenfassung des Plans. ***
     <br/><br/>
@@ -43,13 +43,13 @@ _exe = player createDiaryRecord ["diary", ["Ausführung","
     <br/>
     *** Beschreibung der Route. ***
     <br/><br/>
-    VORGEHENSWEISE - FEUERUNTERSTÜTZUNG
+    VORGEHENSWEISE - FEUERUNTERSTÃœTZUNG
     <br/>
-    *** Ist Feuerunterstützung durch Steilfeuer oder Luftnahunterstützung vorhanden. ***
+    *** Ist FeuerunterstÃ¼tzung durch Steilfeuer oder LuftnahunterstÃ¼tzung vorhanden. ***
     <br/><br/>
-    SPEZIELLE AUFGABEN - SEKUNDÄRZIELE
+    SPEZIELLE AUFGABEN - SEKUNDÃ„RZIELE
     <br/>
-    *** Kurze Anweisungen für Sekundärziele. ***
+    *** Kurze Anweisungen fÃ¼r SekundÃ¤rziele. ***
 "]];
 
 
@@ -59,7 +59,7 @@ _exe = player createDiaryRecord ["diary", ["Ausführung","
 */
 _mis = player createDiaryRecord ["diary", ["Mission","
     <br/>
-    *** Missionsbeschreibung hier einfügen. ***
+    *** Missionsbeschreibung hier einfÃ¼gen. ***
 "]];
 
 
@@ -71,11 +71,11 @@ _sit = player createDiaryRecord ["diary", ["Lage vor Ort","
     <br/>
     *** Allgemeine Beschreibung der Lage vor Ort ***
     <br/><br/>
-    FEINDKRÄFT
+    FEINDKRÃ„FT
     <br/>
-    *** Beschreibung der Feindkräfte ***
+    *** Beschreibung der FeindkrÃ¤fte ***
     <br/><br/>
-    EIGENE KRÄFTE
+    EIGENE KRÃ„FTE
     <br/>
-    *** Beschreibung der eigenen Kräfte ***
+    *** Beschreibung der eigenen KrÃ¤fte ***
 "]];
