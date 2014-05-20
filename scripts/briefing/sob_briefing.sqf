@@ -1,6 +1,6 @@
 /**
 *
-* Briefing template
+* Briefing template nach STANAG 2014
 * sob_briefing.sqf
 *
 */
@@ -11,7 +11,7 @@
 */
 _cre = player createDiaryRecord ["diary", ["Credits","
     <br/>
-    Made by Bob
+    Made by [SOB] BOB
 "]];
 
 
@@ -31,51 +31,47 @@ _abr = player createDiaryRecord ["diary", ["Abkürzungen","
 
 
 /**
-* Ausführung
+* Durchführung
 */
-_exe = player createDiaryRecord ["diary", ["Ausführung","
+_exe = player createDiaryRecord ["diary", ["Durchführung","
     <br/>
-    AUSFÜHRUNG
+    DURCHFÜHRUNG
     <br/>
-    *** Kurze Zusammenfassung des Plans. ***
+    *** (Eigene und geplante Operationsführung) ***
     <br/><br/>
-    VORGEHENSWEISE - ROUTE
+    KOORDINIERUNG
     <br/>
-    *** Beschreibung der Route. ***
+    *** (Maßnahmen zur Koordinierung (z.B. Anmarsch)) ***
     <br/><br/>
-    VORGEHENSWEISE - FEUERUNTERSTÜTZUNG
+    EINSATZUNTERSTÜTZUNG
     <br/>
-    *** Ist Feuerunterstützung durch Steilfeuer oder Luftnahunterstützung vorhanden. ***
-    <br/><br/>
-    SPEZIELLE AUFGABEN - SEKUNDÄRZIELE
-    <br/>
-    *** Kurze Anweisungen für Sekundärziele. ***
+    *** (Feuerunterstützung durch Steilfeuer oder Luftnahunterstützung bzw. Versorgung) ***
 "]];
 
 
 
 /**
-* Mission
+* Auftrag
 */
-_mis = player createDiaryRecord ["diary", ["Mission","
+_mis = player createDiaryRecord ["diary", ["Auftrag","
     <br/>
-    *** Missionsbeschreibung hier einfügen. ***
+    *** (knappe Darlegung des Auftrags) ***
 "]];
 
 
 
 /**
-* Lage vor Ort
+* Lage
 */
-_sit = player createDiaryRecord ["diary", ["Lage vor Ort","
+_sit = player createDiaryRecord ["diary", ["Lage","
     <br/>
-    *** Allgemeine Beschreibung der Lage vor Ort ***
+    *** Auswertung des Auftrages, Beurteilung des Geländes und weiterer Umweltbedingungen ***
     <br/><br/>
-    FEINDKRÄFT
+    FEIND
     <br/>
-    *** Beschreibung der Feindkräfte ***
+    *** (Stärke, Art, Verhalten, vermutliche Absicht) ***
     <br/><br/>
-    EIGENE KRÄFTE
+    EIGENE LAGE
     <br/>
-    *** Beschreibung der eigenen Kräfte ***
+    *** (Lage, Auftrag und Absicht des übergeordneten Truppenteils) ***
 "]];
