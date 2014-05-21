@@ -10,10 +10,10 @@ loadScreen = "img\loadscreen_mission.paa";
 OnLoadName = "VORLAGE";
 OnLoadMissionTime = 1;
 
-Respawn         = 3;
-RespawnDelay    = 4;
+respawn         = 3;
+respawnDelay    = 4;
 respawnDialog   = 1;
-DisabledAI      = 1;
+disabledAi      = 1;
 showGPS         = 1;
 showNotepad     = 1;
 showCompass     = 1;
