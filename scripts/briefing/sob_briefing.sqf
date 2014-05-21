@@ -11,7 +11,7 @@
 */
 _cre = player createDiaryRecord ["diary", ["Credits","
     <br/>
-    Made by [SOB] BOB
+    Made by [SOB] bux / [SOB] BOB
 "]];
 
 
