@@ -11,7 +11,7 @@
 */
 _cre = player createDiaryRecord ["diary", ["Credits","
     <br/>
-    Made by [SOB] bux & [SOB] BOB
+    Made by [SOB] bux + [SOB] BOB
 "]];
 
 
@@ -20,18 +20,20 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 * Abkürzungen
 */
 _abr = player createDiaryRecord ["diary", ["Abkürzungen","
-    <br/>AA - (Assembly Area) Verfügungsraum.
-    <br/>AO - (Area of Operations) Operationsgebiet.
-    <br/>LOC - (Line Of Communication) Strategisch wichtige Straßen.
-    <br/>GSI - Gefechtsschaden Instandsetzung.
-    <br/>NTM - (Notice Of Move) Zeitvorgabe (NTM 15) in der man alle Tätigkeiten abgeschlossen und abmarschbereit sein muss.
-    <br/>PL - (Phase Line) Koordinierungs-, Führungsline. 
-    <br/>PP - (Passage Point) Durchlaufpunkt.
-    <br/>RP - (Reporting Point) Meldepunkt.
-    <br/>SP - (Starting Point) Ablaufpunkt.
-    <br/>TIC - (Troops In Contact) Feindkontakt.
-    <br/>TOC - (Tactical Operations Center) Taktisches Lagezentrum.
-    <br/>VP check - (Vulnerable Point Check) Überprüfung von Stellen an denen die Patrouille besonders verwundbar ist, da sie sich hervorragend für einen Hinterhalt/IED eignen.
+<br/>AA - (Assembly Area) Verfügungsraum.
+<br/>AO - (Area of Operations) Operationsgebiet.
+<br/>FEBA - (Forward Edge of Battle Area) Vorderer Rand der Verteidigung(VRV) 
+<br/>FLOT - (Forward Line of Own Troops) Sicherungslinie (SL).
+<br/>LOC - (Line Of Communication) Strategisch wichtige Straßen.
+<br/>GSI - Gefechtsschaden Instandsetzung.
+<br/>NTM - (Notice Of Move) Zeitvorgabe (NTM 15) in der man alle Tätigkeiten abgeschlossen und abmarschbereit sein muss.
+<br/>PL - (Phase Line) Koordinierungs-, Führungsline. 
+<br/>PP - (Passage Point) Durchlaufpunkt.
+<br/>RP - (Reporting Point) Meldepunkt.
+<br/>SP - (Starting Point) Ablaufpunkt.
+<br/>TIC - (Troops In Contact) Feindkontakt.
+<br/>TOC - (Tactical Operations Center) Taktisches Lagezentrum.
+<br/>VP check - (Vulnerable Point Check) Überprüfung von Stellen an denen die Patrouille besonders verwundbar ist, da sie sich hervorragend für einen Hinterhalt/IED eignen.
 "]];
 
 
@@ -39,19 +41,19 @@ _abr = player createDiaryRecord ["diary", ["Abkürzungen","
 /**
 * Durchführung
 */
-_exe = player createDiaryRecord ["diary", ["Durchführung","
+_exe = player createDiaryRecord ["diary", ["3. Durchführung","
     <br/>
-    DURCHFÜHRUNG
+DURCHFÜHRUNG
     <br/>
-    *** (Eigene und geplante Operationsführung) ***
+*** (Eigene und geplante Operationsführung) ***
     <br/><br/>
-    KOORDINIERUNG
+KOORDINIERUNG
     <br/>
-    *** (Maßnahmen zur Koordinierung (z.B. Anmarsch)) ***
+*** (Maßnahmen zur Koordinierung (z.B. Anmarsch)) ***
     <br/><br/>
-    EINSATZUNTERSTÜTZUNG
+EINSATZUNTERSTÜTZUNG
     <br/>
-    *** (Feuerunterstützung durch Steilfeuer oder Luftnahunterstützung bzw. Versorgung) ***
+*** (Feuerunterstützung durch Steilfeuer oder Luftnahunterstützung bzw. Versorgung) ***
 "]];
 
 
@@ -59,9 +61,9 @@ _exe = player createDiaryRecord ["diary", ["Durchführung","
 /**
 * Auftrag
 */
-_mis = player createDiaryRecord ["diary", ["Auftrag","
+_mis = player createDiaryRecord ["diary", ["2. Auftrag","
     <br/>
-    *** (knappe Darlegung des Auftrags) ***
+*** (knappe Darlegung des Auftrags) ***
 "]];
 
 
@@ -69,15 +71,15 @@ _mis = player createDiaryRecord ["diary", ["Auftrag","
 /**
 * Lage
 */
-_sit = player createDiaryRecord ["diary", ["Lage","
+_sit = player createDiaryRecord ["diary", ["1. Lage","
     <br/>
-    *** Auswertung des Auftrages, Beurteilung des Geländes und weiterer Umweltbedingungen ***
+*** Auswertung des Auftrages, Beurteilung des Geländes und weiterer Umweltbedingungen ***
     <br/><br/>
-    FEIND
+FEIND
     <br/>
-    *** (Stärke, Art, Verhalten, vermutliche Absicht) ***
+*** (Stärke, Art, Verhalten, vermutliche Absicht) ***
     <br/><br/>
-    EIGENE LAGE
+EIGENE LAGE
     <br/>
-    *** (Lage, Auftrag und Absicht des übergeordneten Truppenteils) ***
+*** (Lage, Auftrag und Absicht des übergeordneten Truppenteils) ***
 "]];
