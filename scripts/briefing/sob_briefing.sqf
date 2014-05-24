@@ -11,7 +11,7 @@
 */
 _cre = player createDiaryRecord ["diary", ["Credits","
     <br/>
-    Made by [SOB] BOB
+    Made by [SOB] bux & [SOB] BOB
 "]];
 
 
@@ -20,9 +20,15 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 * Abkürzungen
 */
 _abr = player createDiaryRecord ["diary", ["Abkürzungen","
+	<br/>AA - (Assembly Area) Verfügungsraum.
+	<br/>AO - (Area of Operations) Operationsgebiet.
     <br/>LOC - (Line Of Communication) Strategisch wichtige Straßen.
     <br/>GSI - Gefechtsschaden Instandsetzung.
     <br/>NTM - (Notice Of Move) Zeitvorgabe (NTM 15) in der man alle Tätigkeiten abgeschlossen und abmarschbereit sein muss.
+	<br/>PL - (Phase Line) Koordinierungs-, Führungsline. 
+	<br/>PP - (Passage Point) Durchlaufpunkt.
+	<br/>RP - (Reporting Point) Meldepunkt.
+	<br/>SP - (Starting Point) Ablaufpunkt.
     <br/>TIC - (Troops In Contact) Feindkontakt.
     <br/>TOC - (Tactical Operations Center) Taktisches Lagezentrum.
     <br/>VP check - (Vulnerable Point Check) Überprüfung von Stellen an denen die Patrouille besonders verwundbar ist, da sie sich hervorragend für einen Hinterhalt/IED eignen.
