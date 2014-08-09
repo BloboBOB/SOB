@@ -43,6 +43,11 @@ player disableConversation false;
 tf_no_auto_long_range_radio = true;
 
 /**
+* Without LEA @Public
+*/
+enable_lea_addon = false;
+
+/**
 * SOB Equipment respawn
 */
 sh_sobStart = execVM "scripts\SOB\start.sqf";
