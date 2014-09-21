@@ -1,15 +1,22 @@
-/**
-*
-* Briefing template nach STANAG 2014
-* sob_briefing.sqf
-*
-*/
+/*
+ * By: Bob, bux
+ *
+ * The Briefing
+ *
+ * Arguments:
+ * 0: unit (player) (Object)
+ *
+ * Return Value:
+ * Void
+ */
 
+private ["_unit", "_cre", "_abr", "_exe", "_mis", "_sit"];
+_unit = _this select 0;
 
 /**
 * Credits
 */
-_cre = player createDiaryRecord ["diary", ["Credits","
+_cre = _unit createDiaryRecord ["diary", ["Credits","
     <br/>
     Made by [SOB] bux + [SOB] BOB
 "]];
@@ -19,7 +26,7 @@ _cre = player createDiaryRecord ["diary", ["Credits","
 /**
 * Abkürzungen
 */
-_abr = player createDiaryRecord ["diary", ["Abkürzungen","
+_abr = _unit createDiaryRecord ["diary", ["Abkürzungen","
 <br/>AA - (Assembly Area) Verfügungsraum.
 <br/>AO - (Area of Operations) Operationsgebiet.
 <br/>FEBA - (Forward Edge of Battle Area) Vorderer Rand der Verteidigung(VRV) 
@@ -41,7 +48,7 @@ _abr = player createDiaryRecord ["diary", ["Abkürzungen","
 /**
 * Durchführung
 */
-_exe = player createDiaryRecord ["diary", ["3. Durchführung","
+_exe = _unit createDiaryRecord ["diary", ["3. Durchführung","
     <br/>
 DURCHFÜHRUNG
     <br/>
@@ -61,7 +68,7 @@ EINSATZUNTERSTÜTZUNG
 /**
 * Auftrag
 */
-_mis = player createDiaryRecord ["diary", ["2. Auftrag","
+_mis = _unit createDiaryRecord ["diary", ["2. Auftrag","
     <br/>
 *** (knappe Darlegung des Auftrags) ***
 "]];
@@ -71,7 +78,7 @@ _mis = player createDiaryRecord ["diary", ["2. Auftrag","
 /**
 * Lage
 */
-_sit = player createDiaryRecord ["diary", ["1. Lage","
+_sit = _unit createDiaryRecord ["diary", ["1. Lage","
     <br/>
 *** Auswertung des Auftrages, Beurteilung des Geländes und weiterer Umweltbedingungen ***
     <br/><br/>
