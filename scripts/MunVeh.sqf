@@ -8,6 +8,7 @@ clearItemCargoGlobal _crate;
 _crate addItemCargoGlobal ["NVGoggles", 5];
 _crate addWeaponCargoGlobal ["AGM_Vector", 1];
 _crate addItemCargoGlobal ["AGM_Clacker", 1];
+_crate addItemCargoGlobal ["AGM_SpareBarrel", 1];
 _crate addItemCargoGlobal ["AGM_DefusalKit", 1];
 //GewehreBW
 _crate addWeaponCargoGlobal ["BWA3_Pzf3", 3];
