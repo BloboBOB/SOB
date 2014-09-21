@@ -21,7 +21,7 @@ if !(isDedicated) then {
             case "S10": {[player] call CM;};    //A8
             case "S11": {[player] call MG2;};   //A9
             case "S12": {[player] call MG;};    //A10
-            case "S13": {[S1] call ZugFhr;};    //Bravo
+            case "S13": {[player] call ZugFhr;};//Bravo
             case "S14": {[player] call EOD;};   //B1
             case "S15": {[player] call Gren;};  //B2
             case "S16": {[player] call Schtz;}; //B3
