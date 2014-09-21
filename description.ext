@@ -20,3 +20,28 @@ showNotepad     = 1;
 showCompass     = 1;
 showWatch       = 1;
 debriefing      = 1;
+
+
+class CfgFunctions {
+    class SOB_Loadout {
+        class SOB_Loadout {
+            file = "functions\loadout";
+            class addDefaultItems;
+            class addG27;
+            class addG36;
+            class addItemsToInventoryWithCount;
+            class addMG;
+            class addLoadout;
+            class addSidearm;
+            class chooseLoadout;
+            class resetUnit;
+        };
+    };
+    class SOB_Mission {
+        class SOB_Mission {
+            file = "functions\mission";
+            class briefing;
+            class initClient;
+        };
+    };
+};

@@ -13,7 +13,7 @@ waitUntil {!isNull player};
 /**
 * Create the mission briefing
 */
-sh_briefing = [] execVM "scripts\briefing\sob_briefing.sqf";
+[player] call SOB_Mission_fnc_briefing;
 
 
 /**
@@ -50,5 +50,5 @@ enable_lea_addon = false;
 /**
 * SOB Equipment
 */
-execVM "scripts\SOB\sob_client.sqf";
+[player] call SOB_Loadout_fnc_chooseLoadout;
 
