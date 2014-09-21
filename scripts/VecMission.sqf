@@ -15,7 +15,7 @@ _crate addWeaponCargoGlobal ["BWA3_RGW90", 3];
 //Munition GewehreBW
 _crate addMagazineCargoGlobal ["BWA3_15Rnd_9x19_P8", 15];
 _crate addMagazineCargoGlobal ["BWA3_30Rnd_556x45_G36", 35];
-_crate addMagazineCargoGlobal ["BWA3_20Rnd_762x51_G28_AP", 35];
+_crate addMagazineCargoGlobal ["BWA3_20Rnd_762x51_G28", 35];
 _crate addMagazineCargoGlobal ["BWA3_200Rnd_556x45", 5];
 _crate addMagazineCargoGlobal ["BWA3_RGW90_HH", 3];
 _crate addMagazineCargoGlobal ["BWA3_Pzf3_IT", 3];
