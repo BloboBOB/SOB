@@ -48,16 +48,7 @@ tf_no_auto_long_range_radio = true;
 enable_lea_addon = false;
 
 /**
-* SOB Equipment respawn
-*/
-sh_sobStart = execVM "scripts\SOB\start.sqf";
-
-/**
 * SOB Equipment
 */
 execVM "scripts\SOB\sob_client.sqf";
 
-/**
-* Respawn PzGrenBrig37
-*/
-execVM "Scripts\Server.sqf";
