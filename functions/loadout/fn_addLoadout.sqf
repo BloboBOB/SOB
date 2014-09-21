@@ -63,7 +63,7 @@ switch (toUpper _unitClass) do {
         [_unit, "AGM_Bandage", 30, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
         [_unit, "AGM_Epipen", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
         [_unit, "AGM_Morphine", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "AGM_Bloodbag", 7, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "AGM_Bloodbag", 4, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
     };
     case "GREN": {
         _unit addHeadgear "BWA3_OpsCore_Tropen";
@@ -95,7 +95,7 @@ switch (toUpper _unitClass) do {
         _unit addHeadgear "BWA3_OpsCore_Tropen";
         _unit addVest "BWA3_Vest_Autorifleman_Tropen";
 
-        [_unit, false] call SOB_Loadout_fnc_addMG;
+        [_unit] call SOB_Loadout_fnc_addMG;
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
 };

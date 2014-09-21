@@ -21,7 +21,7 @@ _unit linkItem "ItemWatch";
 //_unit linkItem "ItemRadio";
 _unit linkItem  "tf_anprc152";
 _unit linkItem  "BWA3_ItemNaviPad";
-[_unit, "NVGoggles_OPFOR", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "NVGoggles_OPFOR", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
 [_unit, "AGM_EarBuds", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "AGM_EarBuds", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
