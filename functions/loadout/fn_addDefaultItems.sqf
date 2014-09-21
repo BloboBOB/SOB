@@ -24,7 +24,6 @@ _unit linkItem  "BWA3_ItemNaviPad";
 //[_unit, "NVGoggles_OPFOR", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
 [_unit, "AGM_EarBuds", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-[_unit, "AGM_EarBuds", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
 [_unit, "AGM_CableTie", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "AGM_Bandage", 6, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
