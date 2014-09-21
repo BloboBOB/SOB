@@ -33,7 +33,7 @@ _unit linkItem  "BWA3_ItemNaviPad";
 _unit addBackpack "B_Carryall_mcamo";
 [_unit, "BWA3_acc_LLM01_flash", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
-[_unit, "BWA3_DM51A1", 2, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+//[_unit, "BWA3_DM51A1", 2, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "SmokeShellRed", 2, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "SmokeShellGreen", 2, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "SmokeShellPurple", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
