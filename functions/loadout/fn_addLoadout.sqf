@@ -30,7 +30,7 @@ switch (toUpper _unitClass) do {
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
     case "EOD": {
-        _unit setVariable ["AGM_isEOD", false];
+        _unit setVariable ["AGM_isEOD", true];
 
         _unit addHeadgear "BWA3_OpsCore_Tropen";
         _unit addVest "BWA3_Vest_Rifleman1_Tropen";
@@ -52,7 +52,7 @@ switch (toUpper _unitClass) do {
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
     case "CM": {
-        _unit setVariable ["AGM_IsMedic", false];
+        _unit setVariable ["AGM_IsMedic", true];
         
         _unit addHeadgear "BWA3_OpsCore_Tropen";
         _unit addVest "BWA3_Vest_Medic_Tropen";
