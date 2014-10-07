@@ -23,15 +23,6 @@ setViewDistance 1700;
 setTerrainGrid 25;
 
 
-/**
-* Disable ingame AI radio and local callouts
-*/
-0 fadeRadio 0;
-enableRadio false;
-enableSentences false;
-player disableConversation false;
-
-
 // =====================================================
 // SOB
 // =====================================================
@@ -40,7 +31,27 @@ player disableConversation false;
 /**
 * Task Force Arma 3 radio settings
 */
-tf_no_auto_long_range_radio = true;
+#include "\task_force_radio\functions\common.sqf";
+
+if ((isServer) or (isDedicated)) then {
+  tf_no_auto_long_range_radio = true;
+  publicVariable "tf_no_auto_long_range_radio";
+  
+  tf_same_sw_frequencies_for_side = true;
+  publicVariable "tf_same_sw_frequencies_for_side";
+  
+  tf_same_lr_frequencies_for_side = true;
+  publicVariable "tf_same_lr_frequencies_for_side";
+
+  _settingsSwWest = false call TFAR_fnc_generateSwSettings;
+  _settingsSwWest set [2, ["77.3","511.1","34.3","20.0","24.6","17.6","80.8","23.4","123"]];
+  tf_freq_west = _settingsSwWest;
+
+  _settingsLrWest = false call TFAR_fnc_generateLrSettings;
+  _settingsLrWest set [2, ["50","55","60","65","70","75","80","85","90"]];
+  tf_freq_west_lr = _settingsLrWest;
+};
+
 
 /**
 * Without LEA @Public
