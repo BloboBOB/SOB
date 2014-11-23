@@ -15,7 +15,7 @@ _unit = _this select 0;
 
 switch ((format ["%1", _unit])) do {
     case "S1": {[_unit, "ZugFhr"] call SOB_Loadout_fnc_addLoadout;}; //TOC
-    case "S2": {[_unit, "ZugFhr"] call SOB_Loadout_fnc_addLoadout;}; //Alfa
+    case "S2": {[_unit, "TrpFhr"] call SOB_Loadout_fnc_addLoadout;}; //Alfa
     case "S3": {[_unit, "EOD"] call SOB_Loadout_fnc_addLoadout;};    //A1
     case "S4": {[_unit, "Gren"] call SOB_Loadout_fnc_addLoadout;};   //A2
     case "S5": {[_unit, "Schtz"] call SOB_Loadout_fnc_addLoadout;};  //A3
@@ -27,7 +27,7 @@ switch ((format ["%1", _unit])) do {
     case "S11": {[_unit, "MG2"] call SOB_Loadout_fnc_addLoadout;};   //A9
     case "S12": {[_unit, "MG"] call SOB_Loadout_fnc_addLoadout;};    //A10
     
-    case "S13": {[_unit, "ZugFhr"] call SOB_Loadout_fnc_addLoadout;};//Bravo
+    case "S13": {[_unit, "TrpFhr"] call SOB_Loadout_fnc_addLoadout;};//Bravo
     case "S14": {[_unit, "EOD"] call SOB_Loadout_fnc_addLoadout;};   //B1
     case "S15": {[_unit, "Gren"] call SOB_Loadout_fnc_addLoadout;};  //B2
     case "S16": {[_unit, "Schtz"] call SOB_Loadout_fnc_addLoadout;}; //B3

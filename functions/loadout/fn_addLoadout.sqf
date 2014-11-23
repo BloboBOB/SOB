@@ -29,6 +29,14 @@ switch (toUpper _unitClass) do {
         [_unit, true] call SOB_Loadout_fnc_addG27;
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
+    case "TRPFHR": {
+        _unit addHeadgear "BWA3_OpsCore_Tropen_Camera";
+        _unit addWeapon  "AGM_Vector";
+        _unit addVest "BWA3_Vest_Leader_Tropen";
+
+        [_unit, true] call SOB_Loadout_fnc_addG27;
+        [_unit] call SOB_Loadout_fnc_addSidearm;
+    };
     case "EOD": {
         _unit setVariable ["AGM_isEOD", true];
 
