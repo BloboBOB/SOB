@@ -22,66 +22,57 @@ _unitClass = _this select 1;
 
 switch (toUpper _unitClass) do {
     case "ZUGFHR": {
-        _unit addHeadgear "BWA3_OpsCore_Schwarz";
-        _unit addWeapon  "AGM_Vector";
-        _unit addVest "BWA3_Vest_Leader_Tropen";
-
-        [_unit, true] call SOB_Loadout_fnc_addG27;
-        [_unit] call SOB_Loadout_fnc_addSidearm;
-    };
-    case "TRPFHR": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen_Camera";
-        _unit addWeapon  "AGM_Vector";
+        _unit addHeadgear "H_HelmetB_light_desert";
+        _unit addWeapon  "ACE_Vector";
         _unit addVest "BWA3_Vest_Leader_Tropen";
 
         [_unit, true] call SOB_Loadout_fnc_addG27;
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
     case "EOD": {
-        _unit setVariable ["AGM_isEOD", true];
 
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Rifleman1_Tropen";
 
         [_unit, false] call SOB_Loadout_fnc_addG36;
         [_unit] call SOB_Loadout_fnc_addSidearm;
 
-        [_unit, "AGM_Clacker", 1, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "AGM_DefusalKit", 1, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_M26_Clacker", 1, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_DefusalKit", 1, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
         [_unit, "SatchelCharge_Remote_Mag", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "SatchelCharge_Remote_Mag", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "DemoCharge_Remote_Mag", 2, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
     };
     case "SCHTZ": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Rifleman1_Tropen";
 
         [_unit, false] call SOB_Loadout_fnc_addG36;
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
     case "CM": {
-        _unit setVariable ["AGM_IsMedic", true];
+
         
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Medic_Tropen";
 
         [_unit, false] call SOB_Loadout_fnc_addG36;
         [_unit] call SOB_Loadout_fnc_addSidearm;
         
-        [_unit, "AGM_Bandage", 30, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "AGM_Epipen", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "AGM_Morphine", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-        [_unit, "AGM_Bloodbag", 4, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_fieldDressing", 30, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_epinephrine", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_morphine", 15, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+        [_unit, "ACE_bloodIV_500", 4, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
     };
     case "GREN": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Grenadier_Tropen";
 
         [_unit, true] call SOB_Loadout_fnc_addG36;
         [_unit] call SOB_Loadout_fnc_addSidearm;
     };
     case "PA": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Rifleman1_Tropen";
 
         [_unit, false] call SOB_Loadout_fnc_addG36;
@@ -90,7 +81,7 @@ switch (toUpper _unitClass) do {
         _unit addMagazine "BWA3_Pzf3_IT";
     };
     case "MG2": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Rifleman1_Tropen";
 
         [_unit, false] call SOB_Loadout_fnc_addG27;
@@ -100,7 +91,7 @@ switch (toUpper _unitClass) do {
         [_unit, "BWA3_200Rnd_556x45", 2, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
     };
     case "MG": {
-        _unit addHeadgear "BWA3_OpsCore_Tropen";
+        _unit addHeadgear "H_HelmetB_light_sand";
         _unit addVest "BWA3_Vest_Autorifleman_Tropen";
 
         [_unit] call SOB_Loadout_fnc_addMG;
