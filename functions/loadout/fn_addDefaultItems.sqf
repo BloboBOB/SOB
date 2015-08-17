@@ -23,15 +23,15 @@ _unit linkItem  "tf_anprc152";
 _unit linkItem  "BWA3_ItemNaviPad";
 //[_unit, "NVGoggles_OPFOR", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
-[_unit, "AGM_EarBuds", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_microDAGR", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_EarPlugs", 1, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
-[_unit, "AGM_CableTie", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-[_unit, "AGM_Bandage", 6, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-[_unit, "AGM_Morphine", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
-[_unit, "AGM_Epipen", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_CableTie", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_fieldDressing", 6, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_morphine", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+[_unit, "ACE_epinephrine", 2, "Anywhere"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 
-_unit addBackpack "B_Carryall_mcamo";
-[_unit, "BWA3_acc_LLM01_flash", 1, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
+_unit addBackpack "BWA3_PatrolPack_Tropen";
 
 //[_unit, "BWA3_DM51A1", 2, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "SmokeShellRed", 2, "Backpack"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
