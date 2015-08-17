@@ -22,8 +22,8 @@ if (!isNil "_addGL" && _addGL) then {
     _unit addWeapon "BWA3_G27";
 };
 
-_unit addPrimaryWeaponItem "optic_Holosight";
-_unit addPrimaryWeaponItem "BWA3_acc_LLM01_flash";
+_unit addPrimaryWeaponItem "BWA3_optic_EOTech_Mag_Off";
+_unit addPrimaryWeaponItem "BWA3_acc_VarioRay_flash";
 
 [_unit, "BWA3_20Rnd_762x51_G28", 7, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
 [_unit, "BWA3_20Rnd_762x51_G28_Tracer", 2, "Vest"] call SOB_Loadout_fnc_addItemsToInventoryWithCount;
